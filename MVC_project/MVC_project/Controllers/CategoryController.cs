@@ -104,7 +104,7 @@ namespace MVC_project.Controllers
         }
 
         //DELETE
-        [HttpDelete]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
